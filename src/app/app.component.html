@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+<button class="ssp Stein" (click)="selectSSP($event)"></button>
+<button class="ssp Schere" (click)="selectSSP($event)"></button>
+<button class="ssp Papier" (click)="selectSSP($event)"></button>
+<hr>
+<span id="result">{{result}}</span>
+<hr>
+<div id="mySelected" [ngClass]="mySelected"></div>
